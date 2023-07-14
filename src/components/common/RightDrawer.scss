@@ -1,0 +1,97 @@
+@import url(https://api.fontshare.com/v2/css?f[]=satoshi@700,500,300&display=swap);
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.rightDrawer_header {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 16px 24px;
+
+  background-color: white;
+  border-bottom: 1px solid var(--new-neutral-line, #e3e9ea);
+}
+.rightDrawer_content {
+  background: #f1f4f3;
+  padding: 24px 24px 24px 24px;
+}
+.rightDrawer_header_title {
+  margin: 0;
+
+  color: #000;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.rightDrawer_options {
+  margin-bottom: 11px;
+}
+
+.rightDrawer_options_content {
+  margin-bottom: 11px;
+  padding: 12px 16px 12px 16px;
+
+  border-radius: 6px;
+  border: 1px solid #ccd9de;
+  background: var(--new-neutral-white, #fff);
+  box-shadow: 0px 4px 74px 0px rgba(197, 200, 209, 0.67);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .circle1 {
+    background-color: #4260c8;
+    width: 43px;
+    height: 43px;
+    padding: 10px 10px 9px 9px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-right: 12px;
+  }
+}
+.rightDrawer_options_content_text > p {
+  color: var(--new-neutral-body, #4e5e62);
+  /* Satoshi/BodyCopy/2/Medium */
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.rightDrawer_options_title {
+  margin: 0;
+  color: var(--new-primary-75, #14304a);
+  /* Satoshi/Emphasised/Small-Bold */
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.rightDrawer_content_title {
+  color: var(--new-neutral-body, #4e5e62);
+
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.rightDrawer_options_content_text {
+}
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  margin-left: 7px;
+}

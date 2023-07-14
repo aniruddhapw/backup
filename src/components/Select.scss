@@ -1,0 +1,26 @@
+.selectDatafields {
+  height: 35px;
+}
+.selectOption {
+  :hover {
+    background-color: grey;
+  }
+  height: 35px;
+  padding: 20px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #998a8a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

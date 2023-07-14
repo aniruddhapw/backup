@@ -1,0 +1,291 @@
+* {
+  font-family: Satoshi;
+}
+.rightDrawer_content_next_title {
+  color: #000;
+  font-family: Satoshi;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119%;
+  // margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: white;
+  padding: 8px 24px 7px 24px;
+}
+.rightDrawer_content_next_title > span {
+  margin-left: 5px;
+}
+.rightDrawer_content_next_iconTitle {
+  display: flex;
+  margin-left: 89px;
+  align-items: center;
+  .connectViaProp {
+    margin-left: 6px;
+    color: var(--new-primary-75, #14304a);
+    /* Satoshi/BodyCopy/1/Medium */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
+
+.connectVia_label {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  .input {
+    margin-top: 6px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    gap: 19px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #88a1a7;
+    background: var(--new-neutral-white, #fff);
+    color: var(--new-neutral-active, #021c23);
+    /* Satoshi/BodyCopy/2/Medium */
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
+.label {
+  color: var(--new-neutral-active, #021c23);
+  /* Satoshi/BodyCopy/2/Bold */
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.line {
+  height: 1px;
+  margin-top: 24px;
+  background-color: #c4c4c4;
+}
+
+.connectVia_label_datafield {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 18px;
+  flex-direction: column;
+  .label2 {
+    color: var(--old-palette-neutral-label, #5a636b);
+    /* Satoshi/BodyCopy/2/Medium */
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+}
+.jsonViewButton {
+  display: flex;
+  align-items: center;
+}
+.jsonViewLabel {
+  margin-right: 8px;
+  color: #908b8b;
+  font-family: Satoshi;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cancelAndSave {
+  background-color: white;
+  border-top: 1px solid #bac4c6;
+  margin-top: 98px;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-height: 58px;
+
+  .cancelAndSaveButtons {
+    display: flex;
+    justify-content: space-around;
+
+    .cancelButton {
+      display: flex;
+      padding: 11px 25px;
+      justify-content: center;
+      align-items: center;
+      height: fit-content;
+      gap: 10px;
+      border-radius: 4px;
+      border: 1px solid #998a8a;
+      background: #fff;
+    }
+    .saveConfigrationButton {
+      margin-left: 12px;
+      margin-right: 15px;
+      display: flex;
+      padding: 11px 25px;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      background: var(--new-primary-50, #1691ae);
+      height: fit-content;
+      color: #fff;
+      font-family: Satoshi;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+.mandatoryField {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.fields {
+  margin-top: 10px;
+  gap: 8px;
+  .field {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    box-shadow: 0px 2px 3px 0px rgba(181, 225, 240, 0.26);
+
+    color: white;
+    display: inline-block;
+    margin-right: 7px;
+    color: #908b8b;
+    font-family: Satoshi;
+    font-size: 12px;
+
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 7px;
+  }
+}
+
+.addedFields {
+  .field {
+    display: flex;
+    align-items: center;
+  }
+}
+.jsonData {
+  display: flex;
+  padding: 5px 11px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 3px 3px 3px 0px;
+  border: 1px solid #998a8a;
+  background: #fff;
+  color: #000;
+  font-family: Satoshi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.circle {
+  display: flex;
+  background-color: blue;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  padding: 5.814px 5.814px 5.233px 5.233px;
+  justify-content: center;
+  align-items: center;
+}
+.dataBox {
+  background-color: white;
+  height: 289px;
+  padding: 12px 20px 20px 20px;
+  border-radius: 6px;
+  border: 1px solid #bfbfbf;
+  .line {
+    margin-top: -1px;
+  }
+}
+.dataFields {
+  border-radius: 0;
+  color: #546265;
+  background-color: transparent;
+  font-weight: 700;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dataFields.active {
+  border-bottom-color: #1691ae;
+  color: #010b15;
+  border-width: 3px;
+  border-radius: 0;
+
+  background-color: white;
+}
+.jsonViewBox {
+  margin-top: 16px;
+}
+.jsonData {
+  overflow: auto;
+  max-height: 195px;
+
+  color: white;
+  border-radius: 4px;
+  background: #10313f;
+}
+.jsonData::-webkit-scrollbar {
+  width: 3px;
+}
+.jsonData::-webkit-scrollbar-track {
+  background: #10313f;
+}
+
+/* Handle */
+.jsonData::-webkit-scrollbar-thumb {
+  background: #9de9fb;
+  border-radius: 4px;
+  height: 60px;
+}
+.runTestBtn {
+  border-radius: 4px;
+  border: 1px solid #d7d7d7;
+  background-color: #fff;
+  margin-left: 150px;
+  padding: 4px 8px;
+  box-shadow: 0px 0px 4px 0px rgba(182, 193, 203, 0.25);
+}
+.testWarning {
+  display: flex;
+  border-radius: 5px;
+  border-left: 3px solid var(--old-palette-semantic-error, #f62f50);
+  background: #ffe2dd;
+  padding: 8px 24px;
+  align-items: center;
+  margin-bottom: 16px;
+
+  .circleRed {
+    background-color: #f62f50;
+    width: 31px;
+    height: 31px;
+    color: white;
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+  }
+  .testMessage {
+    font-size: 14px;
+    margin-left: 12px;
+  }
+}
